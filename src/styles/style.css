@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-primary {
+    @apply whitespace-nowrap py-1 px-6 rounded-full border-neutral-600 border-2 hover:border-sky-900 hover:text-sky-900 active:bg-sky-900 active:text-neutral-200;
+  }
+}
